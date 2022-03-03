@@ -95,3 +95,67 @@ body{
     left: 0px;
     padding: 4px;
 }
+
+/* FOOTER */
+
+
+.footer{
+    background-color: #222222;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer ul{
+    font-size: 10px;
+    list-style: none;
+    display: flex;
+    column-gap: 13px;
+    color: white;
+}
+
+.footer a {
+    color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    row-gap: 8px;
+  
+}
+
+.footer a>i {
+    font-size: 20px;
+}
+
+
+i.fa-solid.fa-chevron-up {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+/* menu left */
+
+.menu_left{
+    padding: 5px;
+}
+
+/* menu center */
+
+
+.menu_center{
+    align-self: center;
+}
+
+
+
+/* meny left */
+
+span.menu_right {
+    background-color: #4A4A4A;
+    color: red;
+    font-size: 14px;
+    padding: 15px;
+
+}
