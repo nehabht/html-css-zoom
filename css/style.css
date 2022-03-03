@@ -17,6 +17,14 @@ body{
 
 }
 
+/* HEADER */
+
+.header{
+    position: relative;
+    background-color: black;
+    height: 70px;
+
+}
 
 /* setting on right */
 
@@ -42,4 +50,48 @@ body{
     border-radius: 5px;
     background-color: #4A4A4A;
     color: white;
+}
+
+
+/* MAIN */
+
+/* call users frame */
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    background-color: black;
+}
+
+.container{
+    max-width: 1300px;
+    max-height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 4px;
+    
+
+}
+
+.user_picture{
+    height: 100px;
+    width: 182px;
+    flex-wrap: wrap;
+    position: relative;
+
+    background-image: url(https://i.picsum.photos/id/560/250/150.jpg?hmac=hXiRi9FyvVg-cFe1qINOCYmajJCt4yRdIWivV7rBraw);
+}
+
+.user_name{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #67717d8f;
+    bottom: 0px;
+    left: 0px;
+    padding: 4px;
 }
