@@ -1,0 +1,45 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    position: relative;
+    background-color: black;
+    height: 70px;
+
+}
+
+
+/* setting on right */
+
+.settings{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 4px;
+    background-color: #4A4A4A;
+    top: 4px;
+    right: 28px;
+    border-radius: 5px;
+}
+
+.zoom{
+    padding: 4px;
+    font-size: 12px;
+    position: absolute;
+    padding: 4px;
+    top: 4px;
+    right: 5px;
+    border-radius: 5px;
+    background-color: #4A4A4A;
+    color: white;
+}
