@@ -67,7 +67,8 @@ body{
 
 .container{
     max-width: 1300px;
-    max-height: 550px;
+    height: calc(100vh - 100px);
+    overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     row-gap: 10px;
